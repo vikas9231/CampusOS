@@ -1,0 +1,24 @@
+# Node.js
+node_modules/
+.next/
+out/
+*.tsbuildinfo
+npm-debug.log*
+
+# Environment variables
+.env*
+!.env.example
+
+# Python virtual environments
+venv/
+.venv/
+ai_service/venv/
+ai_service/.venv/
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# OS files
+.DS_Store
+Thumbs.db
