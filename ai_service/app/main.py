@@ -214,7 +214,7 @@ def extract_text(filename: str, content_type: str, raw: bytes) -> str:
 
 
 @app.get("/health")
-def health(_: None = Depends(require_internal_token)) -> dict[str, str]:
+def health() -> dict[str, str]:
     return {"status": "ok"}
 
 
